@@ -44,3 +44,9 @@ function remainingWolfs() {
 function remainingNull() {
     console.log("There are no sheeps and no wolfs!");
 }
+
+/*/ TESTING /*/
+const listSheepsAndWolfs = [];
+function testingProgram(listSheepsAndWolfs){
+
+}
