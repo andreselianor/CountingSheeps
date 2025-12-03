@@ -1,15 +1,7 @@
-/*/ OPCIONES POSIBLES //
+/*/ COUNT SHEEPS SCRIPT /*/
 
-1._ La lista contiene alguna oveja:
-    - 'There are {numero} sheep in total'
-
-2._ La lista no tiene ovejas, pero SÍ lobos:
-    - 'UPS!!! Wolfs eaten sheeps'
-
-3._ La lista no contiene ovejas NI lobos:
-    - 'The list is empty'
-
-*/
+const list = [true];
+countSheeps(list);
 
 function countSheeps(list) {
     let sheeps = 0;
@@ -34,7 +26,7 @@ function countSheeps(list) {
 }
 
 function remainingSheeps(sheeps) {
-    console.log("There are" + sheeps + "sheeps in total");
+    console.log("There are " + sheeps + " sheeps in total");
 }
 
 function remainingWolfs() {
@@ -45,8 +37,3 @@ function remainingNull() {
     console.log("There are no sheeps and no wolfs!");
 }
 
-/*/ TESTING /*/
-const listSheepsAndWolfs = [];
-function testingProgram(listSheepsAndWolfs){
-
-}
